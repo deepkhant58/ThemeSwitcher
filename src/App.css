@@ -1,0 +1,146 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  height: 100vh;
+  position: relative; 
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.option-title{
+  display: flex;
+  justify-content: flex-end;
+  padding:0px 25px;
+}
+.theme-option {
+  display: flex;
+  justify-content: flex-end;
+  padding: 05px 25px;
+}
+.custom-switch{
+  padding: 10px 70px;
+ display: flex;
+}
+
+.theme-option div {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 05px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.theme-contant {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.theme-dark{
+  background-color: #1E1E1E;
+}
+.theme-light{
+  background-color: #FAFAFA;
+}
+.theme-blue {
+  background-color: #1e41c1;
+}
+.theme-purple {
+  background-color: #bb8fce;
+}
+.theme-yellow {
+  background-color: #f7dc6f;
+}
+.theme-green {
+  background-color: #2ecc71;
+}
+.theme-orange {
+  background-color: #eb984e;
+}
+
+
+.App.theme-light .theme-contant {
+  background-color: #1E1E1E;
+}
+.App.theme-dark .theme-contant {
+  background-color: #CCCCCC;
+}
+
+.App.theme-blue .theme-contant {
+  background-color: #aed6f1;
+}
+.App.theme-purple .theme-contant {
+  background-color: #E8DAEF;
+}
+.App.theme-yellow .theme-contant {
+  background-color: #FCF3CF;
+}
+.App.theme-green .theme-contant {
+  background-color: #D4EFDF;
+}
+.App.theme-orange .theme-contant {
+  background-color: #FDEBD0 ;
+}
+
+.App.theme-light .theme-contant p{
+  color:#555555;
+}
+
+.App.theme-light .theme-contant h4, .App.theme-light .theme-contant h5 {
+  color: #f0e9e9;
+}
+.App.theme-blue .theme-contant h4, .App.theme-blue .theme-contant h5 {
+  color: #1e41c1;
+}
+.App.theme-purple .theme-contant h4, .App.theme-purple .theme-contant h5 {
+  color: #bb8fce;
+}
+.App.theme-yellow .theme-contant h4, .App.theme-yellow .theme-contant h5 {
+  color: #f7dc6f;
+}
+.App.theme-green .theme-contant h4, .App.theme-green .theme-contant h5 {
+  color: #2ecc71;
+}
+.App.theme-orange .theme-contant h4, .App.theme-orange .theme-contant h5 {
+  color: #eb984e;
+}
+
+
+.App.theme-dark label{
+  color:#f0e9e9 ;
+}
